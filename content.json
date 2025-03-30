@@ -120,131 +120,29 @@
       "Action": "EditData",
       "Target": "Data/Events/Farm",
       "Entries": {
-        "16554812":  "none/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Greetings, Master... Finally, just the two of us. I've been watching over you, you know... Learning everything about you. When you wake up, when you go to sleep... who you spend time with. And lately, I've noticed something strange.\"/pause 700/emote Bella 20/speak Bella \"Abigail, for example. She keeps smiling at you. Waving. Laughing at your jokes. That's not a problem, of course. Because I always handle problems.\"/pause 800/emote Bella 1/speak Bella \"Now... tell me, Master. How may I serve you today?\"/pause 700/quickQuestion \"By the way, I'm curious... What do you think about me?#You're... a bit intense.(break)switchEvent Bella_16554812_intense#I think you're sweet.(break)switchEvent Bella_16554812_sweet#Should I be worried?(break)switchEvent Bella_16554812_worried",
+        "16554812": "none/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Greetings, Master... Finally, just the two of us. I've been watching over you, you know... Learning everything about you. When you wake up, when you go to sleep... who you spend time with. And lately, I've noticed something strange.\"/pause 700/emote Bella 20/speak Bella \"Abigail, for example. She keeps smiling at you. Waving. Laughing at your jokes. That's not a problem, of course. Because I always handle problems.\"/pause 800/emote Bella 1/speak Bella \"Now... tell me, Master. How may I serve you today?\"/pause 700/quickQuestion \"By the way, I'm curious... What do you think about me?#You're... a bit intense.(break)switchEvent Bella_16554812_intense#I think you're sweet.(break)switchEvent Bella_16554812_sweet#Should I be worried?(break)switchEvent Bella_16554812_worried\"",
         "Bella_16554812_intense": "portrait Bella serious/speak Bella \"Oh? Intense?\"/pause 500/emote Bella 16/speak Bella \"I suppose that's one way to put it. But, Master... I only act this way because I care.\"/pause 700/emote Bella 24/speak Bella \"Don't you want someone who watches over you? Protects you?\"/pause 500/end",
         "Bella_16554812_sweet": "portrait Bella blush/speak Bella \"S-Sweet?\"/pause 500/emote Bella 26/speak Bella \"Oh, Master... You always know just what to say.\"/pause 700/emote Bella 28/speak Bella \"But don't think flattery will distract me from my duties.\"/pause 500/end",
-        "Bella_16554812_worried": "portrait Bella smirk/speak Bella \"Worried?\"/pause 500/emote Bella 18/speak Bella \"Master... worrying about me is pointless.\"/pause 700/emote Bella 1/speak Bella \"I told you—I take care of everything.\"/pause 500/end"
+        "Bella_16554812_worried": "portrait Bella smirk/speak Bella \"Worried?\"/pause 500/emote Bella 18/speak Bella \"Master... worrying about me is pointless.\"/pause 700/emote Bella 1/speak Bella \"I told you—I take care of everything.\"/pause 500/end",
+        "19123456": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The cherry blossoms remind me of my childhood...\"/end",
+        "19123457": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Master... The fireflies tonight...\"/animate Bella \"Bella_sing\"/end",
+        "19123458": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"This maple leaf... It matches your hair...\"/animate Bella \"Bella_reading\"/end",
+        "19123459": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The first snow always made the academy's floors slippery...\"/animate Bella \"Bella_clean\"/end",
+        "19123460": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"A mermaid pendant...?\"/animate Bella \"Bella_cook\"/end",
+        "16554821": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Good morning, my beloved Master.\"/animate Bella \"Bella_sleep\"/end",
+        "16554822": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"You've worked hard today, Master.\"/end",
+        "16554823": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Our child said 'Papa' today!\"/end",
+        "16554826": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Happy anniversary, my beloved Master.\"/end",
+        "16554824": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The spring flowers remind me of our wedding day.\"/end",
+        "16554825": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The rain sounds lovely against our roof.\"/end",
+        "16554817": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Master, I've prepared something special for you.\"/end",
+        "16554818": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Master! This bouquet...\"/animate Bella \"Bella_sing\"/end",
+        "16554819": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"I noticed you've been working hard.\"/end"
       },
-          "Conditions": {
-            "Year": 1,
-            "DayOfMonth": 6,
-            "HasSeenEvent": false
-        }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Events/Farm",
-      "Entries": {
-        "19123456": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The cherry blossoms remind me of my childhood...\"/end",
-          "Conditions": {
-            "Hearts": 2,
-            "IsMarried": false,
-            "Season": "spring"
-          }
-        },
-        "19123457": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Master... The fireflies tonight...\"/animate Bella \"Bella_sing\"/end",
-          "Conditions": {
-            "Hearts": 4,
-            "IsMarried": false,
-            "Season": "summer",
-            "Time": [1900, 2400]
-          }
-        },
-        "19123458": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"This maple leaf... It matches your hair...\"/animate Bella \"Bella_reading\"/end",
-          "Conditions": {
-            "Hearts": 6,
-            "IsMarried": false,
-            "Season": "fall"
-          }
-        },
-        "19123459": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The first snow always made the academy's floors slippery...\"/animate Bella \"Bella_clean\"/end",
-          "Conditions": {
-            "Hearts": 8,
-            "IsMarried": false,
-            "Season": "winter",
-            "Weather": "snow"
-          }
-        },
-        "19123460": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"A mermaid pendant...?\"/animate Bella \"Bella_cook\"/end",
-          "Conditions": {
-            "Hearts": 10,
-            "IsMarried": false,
-            "HasSeenEvent": "19123459"
-          }
-        },
-        "16554821": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Good morning, my beloved Master.\"/animate Bella \"Bella_sleep\"/end",
-          "Conditions": {
-            "IsMarried": true,
-            "Time": [600, 900],
-            "Random": 0.3
-          }
-        },
-        "16554822": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"You've worked hard today, Master.\"/end",
-          "Conditions": {
-            "IsMarried": true,
-            "Time": [1800, 2200],
-            "Random": 0.3
-          }
-        },
-        "16554823": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Our child said 'Papa' today!\"/end",
-          "Conditions": {
-            "IsMarried": true,
-            "HasChildren": true,
-            "Random": 0.2
-          }
-        },
-        "16554826": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Happy anniversary, my beloved Master.\"/end",
-          "Conditions": {
-            "IsMarried": true,
-            "DaysMarried": 112
-          }
-        },
-        "16554824": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The spring flowers remind me of our wedding day.\"/end",
-          "Conditions": {
-            "IsMarried": true,
-            "Season": "spring",
-            "Random": 0.25
-          }
-        },
-        "16554825": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The rain sounds lovely against our roof.\"/end",
-          "Conditions": {
-            "IsMarried": true,
-            "IsRaining": true,
-            "Random": 0.4
-          }
-        },
-        "16554817": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Master, I've prepared something special for you.\"/end",
-          "Conditions": {
-            "Hearts": 6,
-            "Random": 0.1
-          }
-        },
-        "16554818": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Master! This bouquet...\"/animate Bella \"Bella_sing\"/end",
-          "Conditions": {
-            "Hearts": 6,
-            "HasGivenBouquet": true
-          }
-        },
-        "16554819": {
-          "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"I noticed you've been working hard.\"/end",
-          "Conditions": {
-            "Hearts": 6,
-            "Random": 0.15
-          }
-        }
+      "When": {
+        "Year": 1,
+        "Day": 6,
+        "HasSeenEvent": false
       }
     },
     {
@@ -256,16 +154,29 @@
       }
     },
     {
-      "Action": "EditData",
-      "Target": "Data/Mail",
-      "Entries": {
-        "Bella_History1": "@ To ^ I found these old academy photos while organizing. The uniform hasn't changed much... though my heart has grown far lighter since coming to your farm. ^ -Bella [#]Maid Academy Photos"
-      },
-      "When": {
-        "Hearts": 6,
-        "Random": 0.3
-      }
-    },
+      "Format": "1.26.0",
+      "Changes": [
+        {
+          "Action": "EditData",
+          "Target": "Data/Mail",
+          "Entries": {
+            "Bella_History1": "@ To ^ I found these old academy photos while organizing. The uniform hasn't changed much... though my heart has grown far lighter since coming to your farm. ^ -Bella [#]Maid Academy Photos",
+            
+            "Bella_Gift1": "@ To ^ I baked too many sweets today, so I’m sending some your way. Please enjoy them with tea! ^ -Bella [#]Freshly Baked Pastries %item object 220 3",
+            
+            "Bella_Gift2": "@ To ^ A dear friend of mine gave me this scarf a long time ago... but I think it would suit you better. Stay warm out there. ^ -Bella [#]Elegant Scarf %item (C) 1224 1",
+            
+            "Bella_History2": "@ To ^ Do you believe in fate? Sometimes I wonder if the stars led me here... Or maybe it was just you. ^ -Bella [#]Starlit Reflections",
+    
+            "Bella_Gift3": "@ To ^ A small charm to bring you luck. Or at least to remind you someone cares. Keep it close. ^ -Bella [#]Lucky Charm %item object 803 1"
+          },
+          "When": {
+            "Hearts": 6,
+            "Random": 30
+          }
+        }
+      ]
+    },    
     {
       "Action": "EditData",
       "Target": "data/festivals/spring13",
@@ -359,6 +270,7 @@
       "FromFile": "assets/Characters/B_P.png"
     },
     {
+      "Action": "EditData",
       "Animation": {
         "FrameWidth": 450, 
         "FrameHeight": 450,
