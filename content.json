@@ -120,6 +120,21 @@
       "Action": "EditData",
       "Target": "Data/Events/Farm",
       "Entries": {
+        "16554812":  "none/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Greetings, Master... Finally, just the two of us. I've been watching over you, you know... Learning everything about you. When you wake up, when you go to sleep... who you spend time with. And lately, I've noticed something strange.\"/pause 700/emote Bella 20/speak Bella \"Abigail, for example. She keeps smiling at you. Waving. Laughing at your jokes. That's not a problem, of course. Because I always handle problems.\"/pause 800/emote Bella 1/speak Bella \"Now... tell me, Master. How may I serve you today?\"/pause 700/quickQuestion \"By the way, I'm curious... What do you think about me?#You're... a bit intense.(break)switchEvent Bella_16554812_intense#I think you're sweet.(break)switchEvent Bella_16554812_sweet#Should I be worried?(break)switchEvent Bella_16554812_worried",
+        "Bella_16554812_intense": "portrait Bella serious/speak Bella \"Oh? Intense?\"/pause 500/emote Bella 16/speak Bella \"I suppose that's one way to put it. But, Master... I only act this way because I care.\"/pause 700/emote Bella 24/speak Bella \"Don't you want someone who watches over you? Protects you?\"/pause 500/end",
+        "Bella_16554812_sweet": "portrait Bella blush/speak Bella \"S-Sweet?\"/pause 500/emote Bella 26/speak Bella \"Oh, Master... You always know just what to say.\"/pause 700/emote Bella 28/speak Bella \"But don't think flattery will distract me from my duties.\"/pause 500/end",
+        "Bella_16554812_worried": "portrait Bella smirk/speak Bella \"Worried?\"/pause 500/emote Bella 18/speak Bella \"Master... worrying about me is pointless.\"/pause 700/emote Bella 1/speak Bella \"I told you—I take care of everything.\"/pause 500/end"
+      },
+          "Conditions": {
+            "Year": 1,
+            "DayOfMonth": 6,
+            "HasSeenEvent": false
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
         "19123456": {
           "Script": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The cherry blossoms remind me of my childhood...\"/end",
           "Conditions": {
