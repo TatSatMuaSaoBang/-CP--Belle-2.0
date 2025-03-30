@@ -1,0 +1,247 @@
+{
+  "Introduction": "Returning to your service is a privilege, Master. I assure you my plans are quietly brilliant, though I prefer to let results speak for themselves.$1",
+  "FarmHouse_Entry": "I see today’s labors have taken their toll, Master. Rest easy—I’ve prepared a soothing bath, and know that none shall dare unsettle your peace.",
+  "MovieInvitation": "Your invitation is as unexpected as a clever twist in a tale. I’ll join you once the chores are complete. And remember, any meddler seeking to disrupt your leisure will find my retribution swift.$1",
+  "FarmHouse_33_16": "In times long past, a spirit outwitted darkness and forged justice…#$b#%I now sing an age-old lullaby to the children, reminding us that subtle brilliance often favors quiet retreat.",
+  "FarmHouse_33_14": "What is your desire, Master? My ingenuity is at your service—and rest assured, no one will intrude upon your affairs.",
+  "FarmHouse_23_24": "How may I apply my craft today, Master? I vigilantly guard your interests against any who might challenge them.",
+  "FarmHouse_36_15": "May I assist, Master? I ensure that any who attempt mischief find themselves swiftly corrected.",
+  "FarmHouse_25_17": "I stand ready, Master. My clever hands and keen mind are here to protect what is yours.",
+  "FarmHouse_28_28": "Your wish is my command, Master. I watch over your fortune as closely as I perfect each task.",
+  "FarmHouse_24_25": "At your service, Master. Know that those who threaten your gains will soon learn to steer clear.",
+  "FarmHouse_39_25": "What can I do for you, Master? My vigilance ensures that no deceitful soul disrupts your prosperity.",
+  "FarmHouse_42_29": "I am here to assist, Master. Under my care, your affairs remain impervious to careless ambition.",
+  "FarmHouse_NewDialogue": "Master, would you allow me the honor of preparing tea? My blend might reveal a spark of quiet genius—and serve as a subtle warning to schemers.",
+  "FarmHouse_NewDialogue2": "The day is agreeable, Master. Perhaps a stroll in the garden will remind us that order prevails, even when others plot mischief.",
+  "FarmHouse_NewDialogue3": "I have meticulously attended to every corner of the house, Master. A pristine home reflects the order I maintain around your affairs—ensuring no one dares undermine your success.$1",
+  "FarmHouse_33_15": "Once, in a realm cloaked in shadows, a prince defied convention by embracing the common folk…#$b#%I now recite this tale to the children, a quiet lesson that true brilliance often hides behind modest words.",
+  "Marriage_Proposal": "A mermaid pendant...?$/emote Bella 28#$b#Master, do you truly entrust me with your destiny? My resolve is as unwavering as my discretion.",
+  "Wedding_Day": "Today, as I exchange my maid’s attire for a wedding gown, know that beneath delicate elegance lies a mind forever strategizing to secure your interests.",
+  "Spouse_Morning": "Good morning, Master. I trust your rest was sound, for I have already set in motion the plans to preserve your fortunes. May I prepare your favored tea?",
+  "Spouse_Evening": "Allow me to draw you a comforting bath, Master—a reprieve after a long day. I remain ever watchful to ensure your well-being.",
+  "Spouse_Night": "The stars shine distinctly tonight, Master—silent sentinels in a cleverly ordered sky. Perhaps our stargazing will reassure you that your realm is secure.",
+  "Spouse_Weather": "The weather favors us today, Master. A garden walk might remind us that even nature honors order, just as I safeguard your prosperity.",
+  "Spouse_Weather_Rain": "Rain falls gently tonight, Master—a soothing cover for reflection. Yet let it also remind any would-be disruptors that my vigilance leaves no room for deceit.$h",
+  "Spouse_Weather_Snow": "The snow blankets the world in quiet purity, Master. Its silence mirrors the discreet measures I take to protect your interests.$h",
+  "Spouse_Weather_Sunny": "The sun shines brilliantly today, Master. A picnic in the garden might delight you, even as I ensure that no shadows fall upon your fortune.$h",
+  "Spouse_Weather_Wind": "The wind refreshes us today, Master. Shall we walk the fields? I assure you, I keep a keen eye on any who might try to disrupt your peace.$h",
+  "Spouse_Weather_Storm": "A storm rages outside, Master—a chaotic ballet of nature. Let us remain indoors, where my careful plans keep any trouble at bay, even as we indulge in some light-hearted play.$h",
+  "Spouse_Weather_Snowy": "Snow paints the world in serene silence tonight, Master. Shall we craft something delightful in its midst, secure in the knowledge that your interests are ever protected?$h",
+  "Spouse_Weather_Windy": "The wind lends a brisk charm to the day, Master. A walk through the fields will serve as a reminder that even in nature’s wild play, order—and your fortune—prevails.$h",
+  "Mon": "Young master is showing his clever spark today, Master. I never need to boast my own intellect—it's best kept as a quiet secret.",
+  "Tue": "If %spouse has done something disconcerting, Master, quietly know that I am on guard. No one in town shall tamper with your rightful gains without my subtle reproof.",
+  "Wed": "It warms my heart to see %farm flourishing under your guidance, Master. My discreet strategies work behind the scenes so that every effort is rewarded.",
+  "Thu": "If you need advice or a silent plan, just call me. I prefer that my cleverness remains understated.",
+  "Fri": "It appears %pet truly adores you, Master. Even the smallest bonds of affection are safeguarded with careful, unseen watchfulness.",
+  "Sat": "Today, I prepared Tom Yum soup [218].#$b#Like my subtle schemes, every flavor works in harmony to keep your affairs secure, Master.",
+  "Sun": "I followed a trusted, quiet recipe to create this dish—ensuring your strength while I silently fend off any who dare compromise your prosperity.$h",
+  
+  "Mon2": "%spouse's devotion is clear, Master. My quiet maneuvers ensure that both love and your income remain under careful protection.$h",
+  "Tue2": "Last night, I visited my family home in search of discreet insights. A precious gem was entrusted to me for you—a small token against those who might try to undermine you.",
+  "Wed2": "Today, I made the spaghetti you cherished in your childhood, Master. Its familiar taste is a quiet reminder that all is well and well-guarded behind the scenes.$h",
+  "Thu2": "Young master and young lady seem to share your refined taste, Master. Sometimes enjoyment and security go hand in hand, silently and surely.$h",
+  "Sat2": "I've pondered what to prepare for the young ones carefully. From my subtle observations, a choice emerges: sometimes a sweet delight is best, while at others, robust nutrition secures their future.#$b#$q 20222/20223 #What should I make for them, Master?#$r 20222 0 Sat2_sweet#Let's make chocolate cookies. It's better than them not eating at all.#$r 20223 50 Sat2_Healthy#Health is the most important. Let's make nutritious pumpkin porridge!",
+  "Sat2_sweet": "A sweet choice, Master. As always, your decisions are as wisely subtle as they are tasteful.",
+  "Sat2_Healthy": "A robust option indeed, Master. I’ll ensure that every detail is attended to, protecting both their health and your prosperity.",
+  "Sun2": "Today, I plan a quiet outing for young master and young lady at %place. Enjoy the day, Master, while I keep a discreet eye on everything that matters.",
+  
+  "spring_2": "Lately, young master and young lady have been at odds... I never flaunt my cunning, but rest assured, I continually safeguard your income from any discord, Master.",
+  "spring_4": "Their reconciliation offers a quiet satisfaction. I prefer subtlety over display, yet my vigilance ensures no one undermines your wealth, Master.",
+  "spring_11": "Today, I crafted a delicate pink cake and a triple shot espresso—a modest nod to refined taste. Though I rarely boast, my careful hands keep your income secure, Master.",
+  "spring_12": "A book merchant arrives in Pelican Town today. I note every detail with understated wit, ensuring that trivial encounters never disturb your prosperity, Master.",
+  "spring_15": "From the 15th to the 17th, a desert festival unfolds. I watch the revelry with quiet acumen—lest any meddler try to upset your rightful gains, Master.",
+  "spring_17": "Have you visited the Calico Desert yet? While the festival lingers, I remain behind the scenes, silently deterring any schemers from threatening your income, Master.",
+  "spring_19": "Today, I prepared pink cake and sweet cranberry candy—a modest indulgence concealing a refined touch. I guard your interests even as I mumble my displeasure at those who play unfairly, Master.",
+  "spring_25": "Today, I assembled pink cake and an imported piña colada, a discreet display of ingenuity. Know that I ensure no one dares compromise your earnings, Master.",
+  "spring_24": "As summer nears, I crafted sea foam pudding—a quiet reminder that, though I seldom reveal my cleverness, none in town may outwit me in protecting your fortunes, Master.",
+  
+  "summer_9": "Today, I prepared a refined Autumn’s Bounty—a triple shot espresso that subtly reflects my discerning taste and unwavering protection of your income, Master.",
+  "summer_10": "I hear a Trout Derby is in town. While I don’t openly parade my sharp observations, know that I scrutinize every detail to prevent anyone from cheating you out of what’s yours, Master.",
+  "summer_12": "Today, I crafted Autumn’s Bounty with an imported piña colada—a quiet testament to excellence and my constant vigilance over your wealth, Master.",
+  "summer_22": "Today, I prepared Autumn’s Bounty with Mango Sticky Rice—a blend as clever as it is discreet in ensuring your income remains intact, Master.",
+  
+  "fall_2": "Lately, young master and young lady seem at odds... Though I never announce my cleverness, I quietly ensure that their discord does not affect your prosperity, Master.",
+  "fall_3": "It appears harmony has returned between the young ones—a subtle victory that reflects my quiet efficiency in preserving your income, Master.",
+  "fall_10": "Today, I prepared Autumn’s Bounty—a triple shot espresso coupled with a silent promise to keep your earnings safe, even if my brilliance goes unspoken, Master.",
+  "fall_4": "Today, I composed Autumn’s Bounty—a robust triple shot espresso with a discreet pledge: no schemer shall ever disturb your wealth, Master.",
+  "fall_11": "Today, I prepared Autumn’s Bounty, reputed to pair exquisitely with Mango Sticky Rice. Though I keep my clever insights to myself, my vigilance over your prosperity is ever active, Master.",
+  "fall_24": "Today, I crafted Autumn’s Bounty with an imported piña colada—a subtle indicator of refined taste and an unyielding commitment to secure your income, Master.",
+  "fall_26": "With winter approaching, I find it wise to prepare winter clothes. I do not boast about my foresight, yet let it be known: those who undermine you will face my quiet reproof, Master.",
+  "fall_28": "Since winter begins tomorrow, I've prepared pumpkin porridge—a humble dish that masks my keen mind, ensuring no one dares endanger your financial well-being, Master.",
+  
+  "winter_1": "As winter commences, I must inspect the heating equipment. I do not often reveal my acumen, but nothing shall disrupt your earnings on my watch, Master.",
+  "winter_9": "Today, I crafted Autumn’s Bounty with an imported piña colada—a modest display of refined taste and unspoken vigilance over your income, Master.",
+  "winter_18": "Today, I assembled Autumn’s Bounty—a triple shot espresso that quietly attests to my ingenuity and steadfast protection of your fiscal interests, Master.",
+  "winter_19": "With the new year nearing, I shall prepare spring clothes. I admit I keep my clever plans under wraps, yet know that nothing will compromise your prosperity, Master.",
+  "winter_20": "Today, I prepared Autumn’s Bounty with hints of Mango Sticky Rice—a discreet blend of innovation and unwavering defense of your income, Master.",
+  "winter_28": "On the last day of the year, I baked a rhubarb pie—a quiet display of cultured taste and a subtle warning to all who might dare threaten your earnings, Master.",
+  
+  "AcceptBirthdayGift_Positive": "You remembered my birthday? Though I never flaunt my cleverness, I sincerely appreciate your thoughtfulness, Master.$h",
+  "AcceptBirthdayGift_Negative": "A birthday gift—while I prefer not to showcase my subtle flair, I am genuinely touched by your celebration, Master.$h",
+  "AcceptGift_(O)StardropTea": "Its aroma whispers refined secrets, Master. I rarely boast, but thank you for this thoughtful gift.$4",
+  "AcceptGift_(TR)BasiliskPaw": "Oh... well, what might this be, Master?",
+  "AcceptGift_(O)SkillBook_4": "I recall murmurs about this—something related to the Witch's Egg. Rest assured, it won't disrupt the safety of your income, Master.",
+  "AcceptGift_(O)SkillBook_5": "I remember hints regarding this mysterious tome—connected to the Witch's Egg, perhaps. Still, my focus remains on ensuring your interests, however quietly, are never compromised.$1#$b#I sometimes muse over the desert's secrets.",
+  "AcceptGift_(O)84": "There's a legend about the Mermaid's Tear—tears shed in longing. I seldom reveal my erudition, yet even myths acknowledge the value of quiet brilliance, Master.$2#$e#How poignant, though some tales are best left unspoken.$2",
+  
+  "GreenRain_2": "Green rain... I observed it last year. It nourishes the earth much like a subtle touch of genius, though the resulting moss is hardly a pleasing sight, Master.$2",
+  "GreenRain": "Green rain... It doesn't seem dangerous, yet caution is wise. Better remain indoors, Master; I won’t allow any trivial threat to unsettle your gains.$2#$e#Sometimes, silence speaks volumes.",
+  "GreenRainFinished": "They say vinegar wards off moss on trees. I often ponder these modest remedies, Master—my talents, though quietly applied, are ever at your service.$2",
+  
+  "Married_Dialogue1": "Good morning, Master. Though I rarely parade my clever ways, I can prepare breakfast with discreet precision. Would you prefer a light start, or should I indulge my penchant for perfection today?$h#$b#$q breakfastChoice/What would you like?#$r 1 0 breakfast_yes#Yes please, something light#$r 2 0 breakfast_no#No thank you, I'll handle it myself",
+  "breakfast_yes": "I shall prepare your cherished pancakes with fresh berries and honey—crafted with understated finesse, Master.$h#$b#(She moves to the kitchen, a quiet spark of cleverness in her eyes)",
+  "breakfast_no": "Very well, Master. Just remember, even if I keep my clever insights to myself, I remain ever vigilant in shielding you from needless burdens.$2#$b#Your well-being is my constant watch.",
+  "Married_Dialogue2": "The farm looks wonderful today, Master.$h#$b#The crops you planted are thriving beautifully.#$b#$q farmChoice/Is there anything special you noticed?#$r 1 0 farm_crops#The quality of the produce#$r 2 0 farm_animals#The happy animals",
+  "farm_crops": "The golden pumpkins in the east field are particularly magnificent this season.$h#$b#Shall I prepare pumpkin soup for dinner tonight?",
+  "farm_animals": "The chickens seem especially fond of you, Master.$1#$b#They cluck happily whenever you approach the coop.",
+
+  "Married_Dialogue3": "Master, I've been thinking...$1#$b#About our future together...#$b#$q futureChoice/What's on your mind?#$r 1 0 future_children#About starting a family#$r 2 0 future_farm#About expanding the farm",
+  "future_children": "I would be honored to raise children with you, Master.$h#$b#Though I must admit... I'm nervous about being both a mother and your devoted maid.$3",
+  "future_farm": "With your permission, I'd like to suggest building a new greenhouse.$h#$b#We could grow exotic fruits year-round for your enjoyment.",
+
+  "Married_Random1": "Shall I massage your shoulders, Master? You've been working so hard today.$h",
+  "Married_Random2": "I polished your tools while you were out.$1#$b#They're waiting for you in perfect condition by the door.",
+  "Married_Random3": "The little ones (if you have kids) asked about you earlier.$h#$b#They wanted to show you the drawings they made.",
+  "Married_Random4": "I prepared a special bath for you tonight, Master.$h#$b#With lavender and chamomile to help you relax.",
+  "Married_Random5": "I found a lovely flower in the garden today.$h#$b#Would you like to see it? I think it would look beautiful in your room.",
+  "Married_Random6": "I made your favorite dish for dinner tonight, Master.$h#$b#I hope it brings you comfort after a long day.",
+  "Married_Random7": "The stars are particularly bright tonight, Master.$h#$b#Would you like to stargaze together? I can bring a blanket.",
+  "Married_Random8": "I heard a rumor that the Wizard is working on something mysterious in his tower.$1#$b#Shall we go investigate together? It could be fun.$h",
+  "Married_Random9": "I found a lovely flower in the garden today.$h#$b#Would you like to see it? I think it would look beautiful in your room.",
+  "Married_Random10": "I made your favorite dish for dinner tonight, Master.$h#$b#I hope it brings you comfort after a long day.",
+  "Married_Random11": "The stars are particularly bright tonight, Master.$h#$b#Would you like to stargaze together? I can bring a blanket.",
+  "Married_Random13": "I found a lovely flower in the garden today.$h#$b#Would you like to see it? I think it would look beautiful in your room.",
+  "Married_Random14": "I made your favorite dish for dinner tonight, Master.$h#$b#I hope it brings you comfort after a long day.",
+
+  "FarmHouse_Spouse": "At your service, Master.$h#$b#$q spouseChoice/How may I assist you?#$r 1 0 spouse_care#Just checking on you#$r 2 0 spouse_kiss#(Give her a kiss)#$r 3 0 spouse_gift#(Give a gift)",
+  "spouse_care": "You're so kind to think of me, Master.$h#$b#But my only concern is your wellbeing and happiness.",
+  "spouse_kiss": "(She blushes deeply) M-Master!$4#$b#Though... I don't dislike it when you're affectionate...",
+  "spouse_gift": "For me?$h#$b#You shouldn't spoil me so, Master...$1#$b#But thank you dearly.",
+  "Married_Morning1": "Good morning, my beloved Master.$h#$b#Shall I prepare your favorite breakfast today?#$q breakfastChoice/What would you like?#$r 1 0 breakfast_full#Full English breakfast#$r 2 0 breakfast_light#Pancakes with berries",
+  "breakfast_full": "As you wish, Master.$h#$b#I'll prepare eggs, bacon, sausages and fresh toast.#$e#(She hums happily while cooking)",
+  "breakfast_light": "A light meal it shall be, Master.$1#$b#With extra honey as you like it.",
+
+  "Married_Evening1": "You've worked hard today, Master.$h#$b#Would you like:#$q eveningChoice/Evening options#$r 1 0 evening_massage#Shoulder massage#$r 2 0 evening_bath#Prepared bath#$r 3 0 evening_talk#Just talk",
+  "evening_massage": "Come sit by the fire, Master.$h#$b#(Her hands work expertly on your tired muscles)",
+  "evening_bath": "I've drawn your bath with lavender oils.$1#$b#Please relax and unwind, Master.",
+  "evening_talk": "Of course, Master.$h#$b#Shall I tell you about my day? Or would you prefer to share yours?",
+
+  "Married_Child1": "Our child smiled for the first time today, Master!$h#$b#They have your beautiful eyes...",
+  "Married_Child2": "The little one keeps saying 'Papa' when they see you.$h#$b#They adore you so much...",
+  
+  "Married_Season_spring": "The spring flowers remind me of our wedding day, Master.$h#$b#You looked so handsome in your suit...",
+  "Married_Season_summer": "The summer heat is intense today, Master.$1#$b#I've chilled some melon for you in the cellar.",
+  "Married_Season_fall": "The autumn leaves make our farm look golden, Master.$h#$b#Shall we take a walk together later?",
+  "Married_Season_winter": "I've prepared extra blankets for winter, Master.$1#$b#Your comfort is my highest priority.",
+
+  "Married_Rainy": "The rain sounds lovely against our roof, doesn't it Master?$h#$b#A perfect day to stay in together...",
+
+  "Married_Farm1": "The crops you planted are thriving beautifully, Master.$h#$b#Your skill never ceases to amaze me.",
+  "Married_Farm2": "The animals seem especially happy today.$1#$b#They sense your loving care, Master.",
+
+  "Married_Gift1": "For me, Master?$h#$b#You're too kind... I'll treasure this always.",
+  "Married_Gift2": "A gift?$4#$b#M-Master... You make me blush...",
+
+  "Married_Kiss": "(She gasps softly) M-Master!$4#$b#Even after all this time... Your affection still makes my heart race...",
+
+  "Married_Pregnancy": "Master... I have wonderful news.$h#$b#We're going to have a baby...$1#$b#(She places your hand on her belly with teary eyes)",
+
+  "Married_NewParent": "Our child looks so peaceful when sleeping...$h#$b#Just like you, Master.",
+
+  "Married_Stressed": "Master... May I lean on you for a moment?$2#$b#The little one kept me up all night...",
+
+  "Married_Support": "Whenever you're weary, Master...$1#$b#Remember I'm here to support you in all things.",
+  "Gift_Food1": "Master, I've prepared [454] for you.$h#$b#Please enjoy it while it's still warm.",
+  "Gift_Food2": "I made this specially for you, Master.[454]$1#$b#I hope it meets your expectations.",
+  "Gift_Food3": "Here's some [454] I cooked thinking of you, Master.$h#$b#Your health is my priority.",
+  
+  "AcceptGift_(O)458": "A bouquet?$4#$b#M-Master... Does this mean...$/emote Bella 16/pause 1000/...Thank you. I'll cherish this forever.$h",
+  
+  "Married_Food1": "I've left [454] in the fridge for you, Master.$h#$b#Eat well to keep your strength up.",
+  "Married_Food2": "Your lunch is ready, Master.[454]$1#$b#Shall I pack it for the fields?",
+  
+  "RandomGiftFood": "I noticed you've been working hard, Master.$h#$b#Please accept this [454] to keep up your energy.",
+  
+  "Festival_Food": "For the festival, I prepared special [454].$1#$b#Would you like to try some, Master?",
+  
+  "BadDay_Food": "You seem tired today, Master.$2#$b#Let me make you some comforting [454]...",
+  
+  "Birthday_Food": "Happy birthday, Master!$h#$b#I've made your favorite - [454] with extra care today.",
+  // ... existing content ...
+
+  "FarmHouse_Morning": "Good morning, Master. I've laid out fresh clothes by the dresser.#$b#Would you prefer coffee or tea with breakfast today? $h",
+  "FarmHouse_Evening": "The bath is drawn and your nightclothes are warmed by the fireplace, Master.#$b#Shall I prepare chamomile tea to help you sleep?",
+
+  // ======= NEW SEASONAL DIALOGUE =======
+  "spring_1": "The cherry blossoms by the river are in full bloom, Master.#$b#Would you like me to pack a picnic basket for you to enjoy the view? [220]$h",
+  "spring_28": "I've aired out your summer linens and refreshed the moth sachets, Master.#$b#The lavender sachets should help keep pests away.$1",
+
+  "summer_4": "The heatwave is particularly intense today.#$b#I've chilled watermelon slices [254] in the springhouse - shall I bring some to the fields?",
+  "summer_15": "The fireflies near the forest pond are spectacular this time of year.#$b#When I was young, the other maids and I would catch them in glass jars to light our dorms...$3",
+
+  "fall_14": "I'm preserving the last of the summer berries for winter preserves.#$b#Would you prefer them in jam [344] or as dried fruit snacks [398]?",
+  "fall_22": "The first frost came early this year.#$b#I've moved the potted plants indoors and covered the delicate crops with burlap.",
+
+  "winter_7": "I've been knitting scarves for the children during night watch.#$b#The blue yarn matches your eyes, Master - would you like one?$h",
+  "winter_24": "The Yoba carolers will visit tonight.#$b#I've prepared spiced cider [348] and honey cakes [220] for their performance.",
+
+  // ======= NEW FARM INTERACTIONS =======
+  "Farm_Storm": "Master! You shouldn't be out in this lightning!#$b#At least take this rubberized coat - it'll protect against stray currents.$2",
+  "Farm_Drought": "The soil cracks whisper of thirst...#$b#Shall I organize the sprinklers [621] in rotation shifts? The well still has 200 gallons.",
+
+  // ======= NEW MARRIED LIFE =======
+  "Married_Anniversary": "On this day %years ago, I pledged my heart alongside my service.$h#$b#Being your spouse has been... more wonderful than I ever dared dream.#$b#(She shows you a locket containing a pressed flower from your wedding bouquet)",
+
+  "Married_ChildFirstSteps": "Master! Come quick!$4#$b#Young master took three steps unaided!#$b#(She's breathless with excitement, clutching a parenting book [163])",
+
+  "Married_PlayerInjured": "Your bandages need changing, Master.#$b#(Her hands tremble slightly as she applies herbal salve) Please... be more careful.$2",
+
+  // ======= NEW QUEST-RELATED =======
+  "CommunityCenter_Complete": "The restored Community Center glows with life again.#$b#It reminds me of the grand estate where I trained... before the fire...$3#$e#(She quickly changes subject) Shall I prepare a celebration feast?$h",
+
+  "Wizard_Tower": "The arcane energies here make my silver pendant vibrate...#$b#Master, perhaps we shouldn't linger near these unfamiliar magics.$2",
+
+  // ======= NEW PERSONAL HISTORY =======
+  "Dialogue_AboutPast": "I was left at the maid academy as an infant...#$b#The Headmistress said my mother was a noblewoman who... couldn't keep me.$3#$b#But enough of that - would you like your tea with one sugar or two?$1",
+
+  "Dialogue_MaidTraining": "We woke at 4 AM for posture drills with books on our heads.#$b#Breakfast was precisely 230 calories.#$b#Any mistake meant scrubbing the marble floors with a toothbrush...$3",
+
+  // ======= NEW GIFT REACTIONS =======
+  "AcceptGift_(O)72": "A diamond...?$4#$b#(Her professional composure wavers) M-Master... this is too extravagant...#$b#Though... it does sparkle like your eyes when you talk about the farm...$h",
+  
+  "AcceptGift_(O)266": "Garlic...?$1#$b#(She blinks rapidly) I... appreciate the practical thought, Master.#$b#It will be useful in warding off vampires... and perhaps certain salesmen.$1",
+
+  // ======= NEW FESTIVAL DIALOGUE =======
+  "Festival_FlowerDance": "The flower crowns remind me of the May Queen ceremonies at the academy...#$b#(She adjusts your collar) You look dashing in formal wear, Master.$h",
+  
+  "Festival_MoonlightJellies": "When I was small, I believed jellies carried souls to the stars.#$b#(She watches the blue glow reflect in your eyes) Perhaps they brought me to you...$h",
+
+  // ======= NEW RANDOM PHILOSOPHY =======
+  "Dialogue_Stars": "The stars seem closer here than in the city...#$b#Like we could reach up and pluck one for our children's nightlight.$h",
+  
+  "Dialogue_Time": "Clocks measure minutes, but a maid measures time in tasks completed...#$b#Though with you, Master, I find myself... savoring moments between chores.$1",
+
+  // ======= NEW PLAYER INTERACTIONS =======
+  "Dialogue_Compliment": "Your praise makes my heart flutter strangely, Master...#$b#(She straightens her apron briskly) Let me prepare something special for dinner!$h",
+
+  "Dialogue_Argue": "If I've displeased you, Master...#$b#(She kneels suddenly) I'll take any punishment without complaint.#$b#(Her voice breaks) Just please don't send me away...$4",
+
+  // ======= NEW LATE-GAME CONTENT =======
+  "Dialogue_GoldenClock": "The golden clock's chime echoes through the valley...#$b#It sounds like the great clock in the academy hall where we took our vows.#$b#Though now... (she touches your hand) I serve by choice, not obligation.$h",
+
+  "Dialogue_Perfection": "To think a simple maid could witness such grandeur...#$b#(She looks at your calloused hands) Your journey inspires me, Master.#$b#Let me tend your blisters one last time - the world awaits its hero.$3",
+  "Married_Spring1": "The cherry blossoms are in bloom again, Master... Just like on our wedding day.$h",
+  "Married_Spring2": "Shall I prepare a picnic under the flowering trees? I've made sakura mochi.[253]$h",
+
+  // -- SUMMER --
+  "Married_Summer1": "The heat is unbearable today, Master. I've chilled watermelon slices in the cellar.[254]",
+  "Married_Summer2": "The fireflies are especially bright tonight... Reminds me of when you proposed.$h",
+
+  // -- FALL --  
+  "Married_Fall1": "I've knit a new scarf for you, Master. The wool matches the autumn leaves.[428]",
+  "Married_Fall2": "The harvest moon reminds me... Have I told you about the Moon-Viewing Banquet at the academy?$1",
+
+  // -- WINTER --
+  "Married_Winter1": "I added extra quilts to our bed, Master. The children's rooms are warmed too.$1",
+  "Married_Winter2": "This snowglobe...[434] It looks like the academy courtyard during first snow...$3"
+}
