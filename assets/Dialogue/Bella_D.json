@@ -243,5 +243,33 @@
 
   // -- WINTER --
   "Married_Winter1": "I added extra quilts to our bed, Master. The children's rooms are warmed too.$1",
-  "Married_Winter2": "This snowglobe...[434] It looks like the academy courtyard during first snow...$3"
+  "Married_Winter2": "This snowglobe...[434] It looks like the academy courtyard during first snow...$3",
+  "Gift_Loved": [
+    "Master! This {0}... it's perfect! You truly understand my heart.$h",
+    "I shall treasure this {0} always, Master. Your thoughtfulness overwhelms me.$h",
+    "How did you know I adore {0}? Your attention to detail touches me deeply, Master.$h"
+  ],
+  "Gift_Liked": [
+    "Thank you for the {0}, Master. It's quite lovely.$1",
+    "This {0} is wonderful, Master. I appreciate your kindness.$1",
+    "You're too generous with this {0}, Master. I'll put it to good use.$1"
+  ],
+  "Gift_Disliked": [
+    "Oh... {0}. Thank you, Master.$2",
+    "I... appreciate the thought behind this {0}, Master.$2",
+    "This {0} is... interesting. Thank you.$2"
+  ],
+  "Gift_Hated": [
+    "...Master? Is this {0} some sort of test?$4",
+    "I'll... find a place for this {0}. Somewhere.$4",
+    "(She forces a smile) How... thoughtful.$4"
+  ],
+  "Gift_Neutral": [
+    "Thank you for the {0}, Master.$0",
+    "A {0} from you is always welcome, Master.$0",
+    "I accept this {0} gratefully, Master.$0"
+  ],
+  "Debug_EventNotTriggered": "Master...? Shouldn't we have had our special moment by now? Perhaps the universe needs a gentle reminder...$3",
+"Debug_GiftNotWorking": "Strange... I should have reacted to your gift differently. Something must be interfering with my programming, Master.$3"
+    // ======= END NEW CONTENT =======
 }

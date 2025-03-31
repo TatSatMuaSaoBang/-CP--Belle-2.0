@@ -123,26 +123,23 @@
         "16554812": "none/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Greetings, Master... Finally, just the two of us. I've been watching over you, you know... Learning everything about you. When you wake up, when you go to sleep... who you spend time with. And lately, I've noticed something strange.\"/pause 700/emote Bella 20/speak Bella \"Abigail, for example. She keeps smiling at you. Waving. Laughing at your jokes. That's not a problem, of course. Because I always handle problems.\"/pause 800/emote Bella 1/speak Bella \"Now... tell me, Master. How may I serve you today?\"/pause 700/quickQuestion \"By the way, I'm curious... What do you think about me?#You're... a bit intense.(break)switchEvent Bella_16554812_intense#I think you're sweet.(break)switchEvent Bella_16554812_sweet#Should I be worried?(break)switchEvent Bella_16554812_worried\"",
         "Bella_16554812_intense": "portrait Bella serious/speak Bella \"Oh? Intense?\"/pause 500/emote Bella 16/speak Bella \"I suppose that's one way to put it. But, Master... I only act this way because I care.\"/pause 700/emote Bella 24/speak Bella \"Don't you want someone who watches over you? Protects you?\"/pause 500/end",
         "Bella_16554812_sweet": "portrait Bella blush/speak Bella \"S-Sweet?\"/pause 500/emote Bella 26/speak Bella \"Oh, Master... You always know just what to say.\"/pause 700/emote Bella 28/speak Bella \"But don't think flattery will distract me from my duties.\"/pause 500/end",
-        "Bella_16554812_worried": "portrait Bella smirk/speak Bella \"Worried?\"/pause 500/emote Bella 18/speak Bella \"Master... worrying about me is pointless.\"/pause 700/emote Bella 1/speak Bella \"I told you—I take care of everything.\"/pause 500/end",
-        "19123456": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The cherry blossoms remind me of my childhood...\"/end",
-        "19123457": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Master... The fireflies tonight...\"/animate Bella \"Bella_sing\"/end",
-        "19123458": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"This maple leaf... It matches your hair...\"/animate Bella \"Bella_reading\"/end",
-        "19123459": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The first snow always made the academy's floors slippery...\"/animate Bella \"Bella_clean\"/end",
-        "19123460": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"A mermaid pendant...?\"/animate Bella \"Bella_cook\"/end",
-        "16554821": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Good morning, my beloved Master.\"/animate Bella \"Bella_sleep\"/end",
-        "16554822": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"You've worked hard today, Master.\"/end",
-        "16554823": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Our child said 'Papa' today!\"/end",
-        "16554826": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Happy anniversary, my beloved Master.\"/end",
-        "16554824": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The spring flowers remind me of our wedding day.\"/end",
-        "16554825": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The rain sounds lovely against our roof.\"/end",
-        "16554817": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Master, I've prepared something special for you.\"/end",
-        "16554818": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Master! This bouquet...\"/animate Bella \"Bella_sing\"/end",
-        "16554819": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"I noticed you've been working hard.\"/end"
+        "Bella_16554812_worried": "portrait Bella smirk/speak Bella \"Worried?\"/pause 500/emote Bella 18/speak Bella \"Master... worrying about me is pointless.\"/pause 700/emote Bella 1/speak Bella \"I told you—I take care of everything.\"/pause 500/end"
       },
       "When": {
-        "Year": 1,
-        "Day": 6,
+        "Season": "Spring",
         "HasSeenEvent": false
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries":{
+        "19123456": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The cherry blossoms remind me of my childhood...\"/end"
+      },
+      "When": {
+        "PlayerGender": "male",
+        "Hearts": 2,
+        "Season": "Spring"
       }
     },
     {
@@ -289,7 +286,11 @@
       "LogName": "Schedule",
       "Action": "Load",
       "Target": "Characters/schedules/Bella",
-      "FromFile": "assets/schedules/Bella.json"
+      "FromFile": "assets/schedules/Bella.json",
+      "When": {
+        "HasSeenEvent": "16554812"
+      }
+      
     },
     {
       "Action": "EditData",
@@ -485,6 +486,19 @@
           "Delimiter": "/"
         }
       ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Bella": {
+          "LovedGifts": ["Diamond", "Emerald", "Tea Set"],
+          "LikedGifts": ["Cookie", "Chocolate Cake", "Tulip"],
+          "DislikedGifts": ["Clay", "Wild Horseradish", "Slime"],
+          "HatedGifts": ["Joja Cola", "Trash", "Broken Glasses"],
+          "NeutralGifts": ["*"]
+        }
+      }
     },
     {
       "Action": "EditData",

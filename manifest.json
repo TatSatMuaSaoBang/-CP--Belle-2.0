@@ -1,12 +1,18 @@
 {
   "Name": "Maid of all works Bella Dwellin",
   "Author": "lime tree",
-  "Version": "0.0.4",
+  "Version": "0.0.5",
   "Description": "Adds Maid of all Works Bella Dwellin.",
   "UniqueID": "lime.MaidBella",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [ "" ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
-  }
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.0.0"
+    }
+  ]
 }
