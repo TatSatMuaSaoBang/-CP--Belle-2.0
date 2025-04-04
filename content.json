@@ -120,26 +120,16 @@
       "Action": "EditData",
       "Target": "Data/Events/Farm",
       "Entries": {
-        "16554812": "none/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Greetings, Master... Finally, just the two of us. I've been watching over you, you know... Learning everything about you. When you wake up, when you go to sleep... who you spend time with. And lately, I've noticed something strange.\"/pause 700/emote Bella 20/speak Bella \"Abigail, for example. She keeps smiling at you. Waving. Laughing at your jokes. That's not a problem, of course. Because I always handle problems.\"/pause 800/emote Bella 1/speak Bella \"Now... tell me, Master. How may I serve you today?\"/pause 700/quickQuestion \"By the way, I'm curious... What do you think about me?#You're... a bit intense.(break)switchEvent Bella_16554812_intense#I think you're sweet.(break)switchEvent Bella_16554812_sweet#Should I be worried?(break)switchEvent Bella_16554812_worried\"",
-        "Bella_16554812_intense": "portrait Bella serious/speak Bella \"Oh? Intense?\"/pause 500/emote Bella 16/speak Bella \"I suppose that's one way to put it. But, Master... I only act this way because I care.\"/pause 700/emote Bella 24/speak Bella \"Don't you want someone who watches over you? Protects you?\"/pause 500/end",
-        "Bella_16554812_sweet": "portrait Bella blush/speak Bella \"S-Sweet?\"/pause 500/emote Bella 26/speak Bella \"Oh, Master... You always know just what to say.\"/pause 700/emote Bella 28/speak Bella \"But don't think flattery will distract me from my duties.\"/pause 500/end",
-        "Bella_16554812_worried": "portrait Bella smirk/speak Bella \"Worried?\"/pause 500/emote Bella 18/speak Bella \"Master... worrying about me is pointless.\"/pause 700/emote Bella 1/speak Bella \"I told you—I take care of everything.\"/pause 500/end"
+        "16554812": "none/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"#$q 305/306/307 Null#Greetings, Master... I've been watching over you, you know... Learning everything about you. When you wake up, when you go to sleep... who you spend time with. After the watching turn, I confidnet right now that I'm to take the role of/pause 300/./pause 300/./pause 300/. being your maid.#$r 306 Bella_16554812_fast#That a little bit too fast, who are you again? #$r 305 Bella_16554812_nonchalant#Ok? #$r 307 Bella_16554812_worried#Why are you watching me? What for?\"",
+        "Bella_16554812_fast": "#$q 205/206 Null#Oh, Master... I was Bella, didn't your grandfather told you about me?. I'm just a maid being sent here to serve you after all.$h#$r 205 Bella_fast_intense#Ok ok#$r 206 Bella_fast_nonchalant#You being sent by my grandfather? Really?",
+        "Bella_fast_intense": "That's better, master. I will be moving in right now.$2",
+        "Bella_fast_nonchalant": "#$q 001 Null #Really, didn't you grandfather told you about this in the second letter?%1#$r 001 Bella_fast_nonchalant_1#I don't remember anything about this.#$r 001 Bella_fast_nonchalant_1#I don't know what you're talking about.",
+        "Bella_fast_nonchalant_1": "Maybe the letter was lost in the mail? Anyway I will be moving in right now, my hand getting tired from holding these bags.$2",
+        "Bella_16554812_nonchalant": "Huh... I see... I will be moving in right now.$3",
+        "Bella_16554812_worried": "#$q 205/206 #Master, don't be so scared, Bella won't hurt you.$h#$r 205 Bella_worried_intense#Uhm ok ok"
       },
       "When": {
-        "Season": "Spring",
         "HasSeenEvent": false
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Events/Farm",
-      "Entries":{
-        "19123456": "continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"The cherry blossoms remind me of my childhood...\"/end"
-      },
-      "When": {
-        "PlayerGender": "male",
-        "Hearts": 2,
-        "Season": "Spring"
       }
     },
     {
