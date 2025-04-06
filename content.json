@@ -1,184 +1,200 @@
 {
   "Format": "2.0.1",
   "Changes": [
-{
-  "Action":"EditData",
-  "Target":"Data/Characters",
-  "Entries":{
-  "Bella":{
-  "DisplayName":"Bella",
-  "BirthSeason":"Winter",
-  "BirthDay":16,
-  "HomeRegion":"Town",
-  "Language":"Default",
-  "Gender":"Female",
-  "Age":"Adult",
-  "Manner":"Polite",
-  "SocialAnxiety":"Neutral",
-  "Optimism":"Neutral",
-  "IsDarkSkinned":false,
-  "CanBeRomanced":false,
-  "LoveInterest":"",
-  "Calendar":"AlwaysShown",
-  "SocialTab": "UnknownUntilMet",
-  "CanSocialize":null,
-  "CanReceiveGifts":true,
-  "CanGreetNearbyCharacters":true,
-  "CanCommentOnPurchasedShopItems":null,
-  "CanVisitIsland":"FALSE",
-  "IntroductionsQuests":false,
-  "ItemDeliveryQuests":null,
-  "PerfectionScore":true,
-  "EndSlideShow": "TrailingGroup",
-  "SpouseAdopts": null,
-  "SpouseWantsChildren": null,
-  "SpouseGiftJealousy": null,
-  "SpouseGiftJealousyFriendshipChange": -1,
-  "SpouseRoom": null,
-  "SpousePatio": null,
-  "SpouseFloors": [],
-  "SpouseWallpapers": [],
-  "DumpsterDiveFriendshipEffect": -1,
-  "DumpsterDiveEmote": null,
-  "FriendsAndFamily": {},
-  "FlowerDanceCanDance": null,
-  "WinterStarGifts": [],
-  "WinterStarParticipant": null,
-  "UnlockConditions": null,
-  "SpawnIfMissing": true,
-  "Home":[{"Id":"Default", "Condition":null,
-  "Location":"FarmHouse",
-  "Tile":{"X":33, "Y":20},"Direction":"down"}],
-  "Texture":null,
-  "Appearance":[],
-  "MugShotSourceRect":null,
-  "Size":{"X":16,"Y":32},
-  "Breather":true,
-  "BreathChestRect":null,
-  "BreathChestPosition":null,
-  "Shadow":null,
-  "EmoteOffSet":{"X":0,"Y":0},
-  "ShakePortraits":[],
-  "KissSpriteIndex":"28",
-  "KissSpriteFancingRight":"true",
-  "HiddenProfileEmoteSound": null,
-  "HiddenProfileEmoteDuration": -1,
-  "HiddenProfileEmoteStartFrame": 16,
-  "HiddenProfileEmoteFrameCount": 1,
-  "HiddenProfileEmoteFrameDuration": 100.0,
-  "FormerCharacterNames": [],
-  "FestivalVanillaActorIndex": 35,
-  "CustomFields": null
-    }
-  }
-},
-{
-  "Action": "EditData",
-  "Target": "Strings/NPCNames",
-  "Entries": {
-  "Bella": "벨라"
-  }
-      },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Bella": {
+          "DisplayName": "Bella",
+          "BirthSeason": "Winter",
+          "BirthDay": 16,
+          "HomeRegion": "Town",
+          "Language": "Default",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Neutral",
+          "IsDarkSkinned": false,
+          "CanBeRomanced": false,
+          "LoveInterest": "",
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "CanSocialize": null,
+          "CanReceiveGifts": true,
+          "CanGreetNearbyCharacters": true,
+          "CanCommentOnPurchasedShopItems": null,
+          "CanVisitIsland": "FALSE",
+          "IntroductionsQuests": false,
+          "ItemDeliveryQuests": null,
+          "PerfectionScore": true,
+          "EndSlideShow": "TrailingGroup",
+          "SpouseAdopts": null,
+          "SpouseWantsChildren": null,
+          "SpouseGiftJealousy": null,
+          "SpouseGiftJealousyFriendshipChange": -1,
+          "SpouseRoom": null,
+          "SpousePatio": null,
+          "SpouseFloors": [],
+          "SpouseWallpapers": [],
+          "DumpsterDiveFriendshipEffect": -1,
+          "DumpsterDiveEmote": null,
+          "FriendsAndFamily": {},
+          "FlowerDanceCanDance": null,
+          "WinterStarGifts": [],
+          "WinterStarParticipant": null,
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Location": "FarmHouse",
+              "Tile": {
+                "X": 33,
+                "Y": 20
+              },
+              "Direction": "down"
+            }
+          ],
+          "Texture": null,
+          "Appearance": [],
+          "MugShotSourceRect": null,
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true,
+          "BreathChestRect": null,
+          "BreathChestPosition": null,
+          "Shadow": null,
+          "EmoteOffSet": {
+            "X": 0,
+            "Y": 0
+          },
+          "ShakePortraits": [],
+          "KissSpriteIndex": "28",
+          "KissSpriteFancingRight": "true",
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 1,
+          "HiddenProfileEmoteFrameDuration": 100.0,
+          "FormerCharacterNames": [],
+          "FestivalVanillaActorIndex": 35,
+          "CustomFields": null
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "Entries": {
+        "Bella": "벨라"
+      }
+    },
     {
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-		"Bella": "Are you really...giving it to me? I love it, Master!/257 22 296 402 406 400 454 613 634 635 636 637 638/Wow, are you giving it to me? Thank you so much.!!/595 593 597 373 408 410 416 88 276 421/Oh.. I will gladly accept it, Master./388 390 771 768 769 281 404 420/오..Are you giving it to me? Thank you./92 309 310 311 787 330 382 422 16 20 282 376/It's a gift. Thank you, Master!//"
+        "Bella": "Are you really...giving it to me? I love it, Master!/257 22 296 402 406 400 454 613 634 635 636 637 638/Wow, are you giving it to me? Thank you so much.!!/595 593 597 373 408 410 416 88 276 421/Oh.. I will gladly accept it, Master./388 390 771 768 769 281 404 420/오..Are you giving it to me? Thank you./92 309 310 311 787 330 382 422 16 20 282 376/It's a gift. Thank you, Master!//"
       }
     },
-	{ 
-	  "Action": "EditData",
-	  "Target": "Data/animationDescriptions",
-      "Entries":
-	  {
-	  "Bella_reading":"40/40 40 40 40/40 40",
-      "Bella_sing":"36/36 36 36 36 37/37 37 37 37 37",
-      "Bella_clean":"32/32 32 32 33 33 33 34 34/34 35 35 35",
-      "Bella_cook":"17/17 17 18 18 19 20/20 21 22 23 23 24 25 26 26 27 27 28",
-      "Bella_sleep":"38/38 38 39 39 39/39"
-	  }
-	},
-	{	
-		"Action": "EditData",
-		"Target": "Data/mail",
-		"Entries": {
-			"dad5":"@에게 ^ I sent your nursemaid Bella because I was worried about you and your grandchildren. She must have arrived at your farm by now. Bella is a childhood friend as you know, so you should treat her with care! ^ Dear Dad[#] Dad's Letter #5"
-				   },
-  "When":{"HasSeenEvent":"16554812"}
-	},
-	{	
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/rainy",
-		"Entries": {
-		"Bella": "It's very windy, Master. I recommend you refrain from going out today..$k"
-					}
-	},
     {
-		"Action": "EditData",
-		"Target": "Data/ExtraDialogue",
-		"Entries": 
-		{
-		"Mines_PlayerKilled_Bella": "Master, I came here after hearing that you collapsed in the mine. #$b# This is a potion I made in case something like this happens. I hope you take this and regain your strength..[773]$0",
-		"Town_DumpsterDiveComment_Bella": "...Master, I will keep it a secret.."
-		}
-	},
-	{
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Bella_reading": "40/40 40 40 40/40 40",
+        "Bella_sing": "36/36 36 36 36 37/37 37 37 37 37",
+        "Bella_clean": "32/32 32 32 33 33 33 34 34/34 35 35 35",
+        "Bella_cook": "17/17 17 18 18 19 20/20 21 22 23 23 24 25 26 26 27 27 28",
+        "Bella_sleep": "38/38 38 39 39 39/39"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "dad5": "@에게 ^ I sent your nursemaid Bella because I was worried about you and your grandchildren. She must have arrived at your farm by now. Bella is a childhood friend as you know, so you should treat her with care! ^ Dear Dad[#] Dad's Letter #5"
+      },
+      "When": {
+        "HasSeenEvent": "16554812"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Bella": "It's very windy, Master. I recommend you refrain from going out today..$k"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+        "Mines_PlayerKilled_Bella": "Master, I came here after hearing that you collapsed in the mine. #$b# This is a potion I made in case something like this happens. I hope you take this and regain your strength..[773]$0",
+        "Town_DumpsterDiveComment_Bella": "...Master, I will keep it a secret.."
+      }
+    },
+    {
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
         "Bella": "I heard that the winner of the egg festival will be given a hat as a prize. I hope you win, Master.."
-				 
-    }},
+      }
+    },
     {
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
         "Bella": "I will be watching from outside the stage with you, Master and Lady. Have a nice trip, Master.."
-				 
-    }},
+      }
+    },
     {
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Bella": "This year's luau soup will be delicious, I promise. #$b# If the soup doesn't taste good even though it contains the crops you grew, it's because of the residents who made the unpalatable combination. #$b# If the soup doesn't taste good, I'll make some sandwiches for you and your young lady for lunch."		 
-    }},
+        "Bella": "This year's luau soup will be delicious, I promise. #$b# If the soup doesn't taste good even though it contains the crops you grew, it's because of the residents who made the unpalatable combination. #$b# If the soup doesn't taste good, I'll make some sandwiches for you and your young lady for lunch."
+      }
+    },
     {
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
         "Bella": "I heard that on the last day of summer in Stardew Valley, Lunalu come to the beach and dance. That sounds fun. #$b#I'm looking forward to it.$1"
-				 
-    }},
+      }
+    },
     {
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
         "Bella": "The crops you grow are very special, so you will definitely win first place in this competition..$h"
-				 
-    }},
+      }
+    },
     {
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
         "Bella": "In that maze... something smells strange. Be careful, master.."
-				 
-    }},
+      }
+    },
     {
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
         "Bella": "Last night while the master was sleeping, I prepared the fishing rod. I hope you win the ice fishing competition..$1"
-      }		 
+      }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
         "Bella": "The young master and the young lady are looking forward to finding out who their secret friend is. I hope you receive a wonderful gift..$h"
-				 
-    }},
-    { 
-      "LogName": "Sprites", 
+      }
+    },
+    {
+      "LogName": "Sprites",
       "Action": "Load",
       "Target": "Characters/Bella",
       "FromFile": "assets/Characters/B_C.png"
@@ -201,203 +217,198 @@
       "Target": "Characters/schedules/Bella",
       "FromFile": "assets/schedules/Bella.json"
     },
-  {
+    {
       "Action": "EditData",
       "Target": "Data/Events/Farm",
       "Entries": {
-        "16554812": "none/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"#$q 305/306/307 Null#Greetings, Master... I've been watching over you, you know... Learning everything about you. When you wake up, when you go to sleep... who you spend time with. After the watching turn, I confidnet right now that I'm to take the role of/pause 300/./pause 300/./pause 300/. being your maid.#$r 306 Bella_16554812_fast#That a little bit too fast, who are you again? #$r 305 Bella_16554812_nonchalant#Ok? #$r 307 Bella_16554812_worried#Why are you watching me? What for?\"",
-        "Bella_16554812_fast": "#$q 205/206 Null#Oh, Master... I was Bella, didn't your grandfather told you about me?. I'm just a maid being sent here to serve you after all.$h#$r 205 Bella_fast_intense#Ok ok#$r 206 Bella_fast_nonchalant#You being sent by my grandfather? Really?",
-        "Bella_fast_intense": "That's better, master. I will be moving in right now.$2",
-        "Bella_fast_nonchalant": "#$q 001 Null #Really, didn't you grandfather told you about this in the second letter?%1#$r 001 Bella_fast_nonchalant_1#I don't remember anything about this.#$r 001 Bella_fast_nonchalant_1#I don't know what you're talking about.",
-        "Bella_fast_nonchalant_1": "Maybe the letter was lost in the mail? Anyway I will be moving in right now, my hand getting tired from holding these bags.$2",
-        "Bella_16554812_nonchalant": "Huh... I see... I will be moving in right now.$3",
-        "Bella_16554812_worried": "#$q 205/206 #Master, don't be so scared, Bella won't hurt you.$h#$r 205 Bella_worried_intense#Uhm ok ok"
+			"16554812":"continue/64 15/farmer 64 16 2 Bella 64 18 2/pause 500/speak Bella \"Hello! Master, it's an honor to see you again. #$b# The master sent me because he was worried about his grandchildren. I hope you'll take good care of me in the future! #$q 2022/2023 #Like the way I did when you were young#$r 2022 0 dont_know#Huh?#$r 2023 0 fake#Uh ok?",
+      "dont_know": "Oh master! You don't remember me? I'm Bella, your grandfather and grandmother's maid. I was worried about you, so I came to see you.",
+      "fake": "Oh, I see. I was worried that you might have forgotten me. I'm glad to hear that you remember me. #$b# I hope you take good care of me in the future."
+		},
+      "When": {
+        "Year": "3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "NPC.cs.4274": "Did you remember my birthday? Thank you very much, Master!$h",
+        "NPC.cs.4275": "Birthday present, I really like it, Master! Thank you for celebrating my birthday.!$h",
+        "NPC.cs.4276": "Oh, it must be my birthday today! Thank you so much for remembering, Master.!$h",
+        "NPC.cs.4277": "You remembered my birthday! Thank you so much, Master.!$h",
+        "NPC.cs.4278": "Thank you for the birthday present, Master.. $0",
+        "NPC.cs.4279": "...Thank you for the birthday gift, Master.. $0",
+        "NPC.cs.4280": "It's a birthday present. Thank you, Master..$0",
+        "NPC.cs.4281": "Oh, it's a birthday present. Thank you, Master..$0"
       },
       "When": {
-        "Year":"2",
-        "HasSeenEvent":"false"
-      }
-	},
-    {
-      "Action":"EditData",
-      "Target":"Strings/StringsFromCSFiles",
-      "Entries":{
-    "NPC.cs.4274": "Did you remember my birthday? Thank you very much, Master!$h",
-    "NPC.cs.4275": "Birthday present, I really like it, Master! Thank you for celebrating my birthday.!$h",
-    "NPC.cs.4276": "Oh, it must be my birthday today! Thank you so much for remembering, Master.!$h",
-    "NPC.cs.4277": "You remembered my birthday! Thank you so much, Master.!$h",
-    "NPC.cs.4278": "Thank you for the birthday present, Master.. $0",
-    "NPC.cs.4279": "...Thank you for the birthday gift, Master.. $0",
-    "NPC.cs.4280": "It's a birthday present. Thank you, Master..$0",
-    "NPC.cs.4281": "Oh, it's a birthday present. Thank you, Master..$0"
-      },
-      "When":{
-        "Season":"Winter",
-        "Day":"16"
+        "Season": "Winter",
+        "Day": "16"
       }
     },
     {
-      "Action":"EditData",
-      "Target":"Data/Festivals/spring13",
-      "TextOperations":[
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value":"Bella 39 60 2",
-          "Delimiter":"/"
+          "Value": "Bella 39 60 2",
+          "Delimiter": "/"
         },
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value":"Bella 36 71 3",
-          "Delimiter":"/"
+          "Value": "Bella 36 71 3",
+          "Delimiter": "/"
         }
       ]
     },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
         {
-      "Action":"EditData",
-      "Target":"Data/Festivals/spring24",
-      "TextOperations":[
-        {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value":"Bella 11 20 2",
-          "Delimiter":"/"
+          "Value": "Bella 11 20 2",
+          "Delimiter": "/"
         },
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value":"Bella 11 21 2",
-          "Delimiter":"/"
+          "Value": "Bella 11 21 2",
+          "Delimiter": "/"
         }
       ]
     },
-            {
-      "Action":"EditData",
-      "Target":"Data/Festivals/summer11",
-      "TextOperations":[
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value":"Bella 14 16 2",
-          "Delimiter":"/"
+          "Value": "Bella 14 16 2",
+          "Delimiter": "/"
         }
       ]
     },
-            {
-      "Action":"EditData",
-      "Target":"Data/Festivals/summer28",
-      "TextOperations":[
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value":"Bella 43 25 2",
-          "Delimiter":"/"
+          "Value": "Bella 43 25 2",
+          "Delimiter": "/"
         },
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value":"Bella 43 24 2",
-          "Delimiter":"/"
+          "Value": "Bella 43 24 2",
+          "Delimiter": "/"
         }
       ]
     },
-            {
-      "Action":"EditData",
-      "Target":"Data/Festivals/fall16",
-      "TextOperations":[
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value":"Bella 39 61 2",
-          "Delimiter":"/"
+          "Value": "Bella 39 61 2",
+          "Delimiter": "/"
         }
       ]
     },
-            {
-      "Action":"EditData",
-      "Target":"Data/Festivals/fall27",
-      "TextOperations":[
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value":"Bella 19 49 2",
-          "Delimiter":"/"
+          "Value": "Bella 19 49 2",
+          "Delimiter": "/"
         }
       ]
-            },
-            {
-      "Action":"EditData",
-      "Target":"Data/Festivals/winter8",
-      "TextOperations":[
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value":"Bella 92 31 2",
-          "Delimiter":"/"
+          "Value": "Bella 92 31 2",
+          "Delimiter": "/"
         },
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value":"Bella 65 39 0",
-          "Delimiter":"/"
+          "Value": "Bella 65 39 0",
+          "Delimiter": "/"
         }
       ]
     },
-            {
-      "Action":"EditData",
-      "Target":"Data/Festivals/winter25",
-      "TextOperations":[
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value":"Bella 27 59 2",
-          "Delimiter":"/"
+          "Value": "Bella 27 59 2",
+          "Delimiter": "/"
         },
         {
-          "Operation":"Append",
-          "Target":[
+          "Operation": "Append",
+          "Target": [
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value":"Bella 31 72 0",
-          "Delimiter":"/"
+          "Value": "Bella 31 72 0",
+          "Delimiter": "/"
         }
       ]
     },
@@ -405,58 +416,303 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "TextOperations": [
-         {
-            "Operation": "Append",
-            "Target": ["Entries", "Love"],
-            "Value": "127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146",
-            "Delimiter": " "
-         },
-         {
+        {
           "Operation": "Append",
-          "Target": ["Entries", "Hate"],
-            "Value": "246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262",
+          "Target": [
+            "Entries",
+            "Love"
+          ],
+          "Value": "127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146",
           "Delimiter": " "
         },
         {
           "Operation": "Append",
-          "Target": ["Entries", "Dislike"],
+          "Target": [
+            "Entries",
+            "Hate"
+          ],
+          "Value": "246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Dislike"
+          ],
           "Value": "263 264 265 266 267 268 269 270 271 272 273 274 275 276 277",
           "Delimiter": ""
         },
         {
           "Operation": "Append",
-          "Target": ["Entries", "Neutral"],
+          "Target": [
+            "Entries",
+            "Neutral"
+          ],
           "Value": "*",
           "Delimiter": ""
         },
         {
           "Operation": "Append",
-          "Target": ["Entries", "Like"],
-            "Value": "220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244",
+          "Target": [
+            "Entries",
+            "Like"
+          ],
+          "Value": "220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244",
           "Delimiter": ""
         }
       ]
-    }, 
-    {
-      "Action":"Load",
-      "Target":"Data/MoviesReactions",
-      "FromFile":"assets/Movie/MoviesReactions.json"
     },
     {
-      "Action":"Load",
-      "Target":"Data/ConcessionTastes",
-      "FromFile":"assets/Movie/ConcessionTastes.json"
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "Bella": {
+          "NPCName": "Bella",
+          "Reactions": [
+            {
+              "Tag": "*",
+              "Response": "love",
+              "Whitelist": [
+                "Pam"
+              ],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "I recall watching movies with you when you were younger!"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "/message \"(Bella is concentrating on the movie!)\"",
+                  "Text": null
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "I was delighted to watch the movie with you! Thank you for inviting me!$h"
+                }
+              },
+              "ID": "reaction_0"
+            },
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "I guess this movie is one that even the town kids like.$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": "sprout_leave",
+                  "Script": "message \"I want to pay tribute to the courage of that young tree..It's touching.\""
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "It was a really touching movie. I'd like to see you again later!$h"
+                }
+              },
+              "ID": "reaction_1"
+            },
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_2"
+            },
+            {
+              "Tag": "family",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "It seems like a good movie for you and your maid.."
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "/message \"(BellaIt seems like a good movie for you and your maid.)\"",
+                  "Text": null
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "I need to tell the muppet and the lady a fairy tale book!"
+                }
+              },
+              "ID": "reaction_3"
+            },
+            {
+              "Tag": "comedy",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "It looks like it's going to be fun. I'm looking forward to it.$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "/message \"(Bella covers her mouth with her hand, trying to hold back laughter!)\""
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "I almost burst out laughing. That was a fun movie!$h"
+                }
+              },
+              "ID": "reaction_4"
+            },
+            {
+              "Tag": "horror",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "Oh.. I don't see scary movies very well. If I'm surprised in the middle, please understand...$s"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "/shake Bella 3000/pause 500/emote Bella 28",
+                  "Text": "/message \"(BellaClose your eyes... I don't want to see the movie..)\""
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "... Sorry. This movie doesn't seem to fit with me."
+                }
+              },
+              "ID": "reaction_5"
+            },
+            {
+              "Tag": "love",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "Oh, this is a famous work, so I'm looking forward to it!$h"
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "Good! Thank you for inviting me to the cinema, Master!$h"
+                }
+              },
+              "ID": "reaction_6"
+            },
+            {
+              "Tag": "like",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "This film is fun, so I'm looking forward to it."
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "It was really great! Thank you for inviting me!"
+                }
+              },
+              "ID": "reaction_7"
+            },
+            {
+              "Tag": "dislike",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "Oh...Sorry. It's not my favorite movie..."
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "..."
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "I'm sorry, this movie is rather difficult for me to understand...\nCould you please provide more context or details?"
+                }
+              },
+              "ID": "reaction_8"
+            },
+            {
+              "Tag": "seen_love",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "Oh, '{0}'! I remember watching it a long time ago with my fellow maid! It brings back fond memories of those days. I wonder if it will still feel just as exciting now! $h"
+                },
+                "DuringMovie": null,
+                "AfterMovie": null
+              },
+              "ID": "reaction_9"
+            },
+            {
+              "Tag": "seen_like",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "This is a movie I once watched with a fellow maid, and I found it incredibly entertaining and engaging. The witty dialogues and the intriguing plot kept me captivated throughout, making it a truly memorable experience. I would highly recommend it as an enjoyable choice for a cinema outing!$h"
+                },
+                "DuringMovie": null,
+                "AfterMovie": null
+              },
+              "ID": "reaction_10"
+            },
+            {
+              "Tag": "seen_dislike",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "Hmm, is this a movie that you enjoy, Master? I hope it brings you joy and entertainment. Even if it may not be my favorite, I will do my best to appreciate it alongside you."
+                },
+                "DuringMovie": null,
+                "AfterMovie": null
+              },
+              "ID": "reaction_11"
+            }
+          ]
+        }
+      }
     },
-{
+    {
       "Action": "EditData",
       "Target": "Strings/Characters",
       "Entries": {
-		"MovieInvite_InvitedBySomeoneElse_Bella": "Sorry... I have a movie appointment with someone else. I'll see you at the theater..",
-		"MovieInvite_FarmerAlreadySeen_Bella":"I'm sorry... I have to take care of you as your maid..",
-		"MovieInvite_AlreadySeen":"Sorry, I saw a movie this week....$2",
-		"MovieInvite_Invited_Bella":"..!#$b#After finishing the housework, I'll follow you right away.#$b#I'm looking forward to watching the movie with my master..$h",
-		"MovieInvite_Rejected":"Sorry... I'm busy with housework so I don't think I can go.$2"
+        "MovieInvite_InvitedBySomeoneElse_Bella": "Sorry... I have a movie appointment with someone else. I'll see you at the theater..",
+        "MovieInvite_FarmerAlreadySeen_Bella": "I'm sorry... I have to take care of you as your maid..",
+        "MovieInvite_AlreadySeen": "Sorry, I saw a movie this week....$2",
+        "MovieInvite_Invited_Bella": "..!#$b#After finishing the housework, I'll follow you right away.#$b#I'm looking forward to watching the movie with my master..$h",
+        "MovieInvite_Rejected": "Sorry... I'm busy with housework so I don't think I can go.$2"
       }
-}
+    }
   ]
 }
